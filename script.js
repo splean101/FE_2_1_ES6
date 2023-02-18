@@ -28,3 +28,10 @@ function maxSalary(salaries) {
 }
 
 console.log(maxSalary(salaries));
+
+// -----------2-------------
+
+const users1 = { Mike: 'Mike', Bob: 'Bob', Nicola: 'Nilola' };
+
+const { Mike: UserMike, Bob: userBob, Nicola: userNicola } = users1;
+console.log(UserMike, userBob, userNicola);
